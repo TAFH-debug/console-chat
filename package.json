@@ -1,0 +1,19 @@
+{
+  "name": "console-chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "tsc",
+    "start": "node ./build/index.js",
+    "predev": "tsc --project tsconfig-test.json",
+    "dev": "node ./build/dev/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TAFH-debug",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^18.0.1"
+  }
+}
