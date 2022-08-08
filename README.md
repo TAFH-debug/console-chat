@@ -3,8 +3,9 @@ Requires node.js >= v16.15.1 to launch.
 
 1. Download source code from releases.
 2. Open project root folder in terminal.
-3. Type "npm start" in terminal.
-4. Enjoy.
+3. Type "npm i" in terminal.
+4. After loading dependencies, type "npm start" in terminal.
+5. Enjoy.
 
 # Command helper:
     join <ip> <nickname>
